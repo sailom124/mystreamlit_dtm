@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('dtm_trained_modelpkl','rb') as f:
+with open('dtm_trained_model.pkl','rb') as f:
     dtm_model = pickle.load(f)
     
     st.title("Iris flower Classification")
